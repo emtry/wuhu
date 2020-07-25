@@ -3,7 +3,7 @@
 
 ## 下载
 
-[蓝奏云](https://h0m3.lanzous.com/iLBYvev1kbc)
+[蓝奏云](https://h0m3.lanzous.com/ioe4Sezpaqf)
 
 [Github](https://github.com/emtry/wuhu/archive/master.zip)
 
