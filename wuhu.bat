@@ -1,7 +1,10 @@
 @echo off & setlocal enabledelayedexpansion
 
-del /Q "%~dp0GreenLuma 2020\AppList\"
-mkdir "%~dp0GreenLuma 2020\AppList\"
+if not exist "%~dp0GreenLuma 2020\AppList" (
+        mkdir "%~dp0GreenLuma 2020\AppList\"
+    ) else (
+        del /Q "%~dp0GreenLuma 2020\AppList\"
+    )
 
 set n=0
 for %%i in ("%~dp0List\*.TXT") do (
