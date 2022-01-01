@@ -1,7 +1,7 @@
 @echo off
 title=自动更新中
 set pwd=%~dp0
-rmdir  /q/s "%pwd:~0,-7%\GreenLuma 2020"
+rmdir /q/s "%pwd:~0,-7%\GreenLuma 2020"
 mkdir %pwd%tmp
 cls
 for /F %%i in (%pwd:~0,-7%\version.txt) do (set version=%%i)
@@ -23,12 +23,10 @@ else if %flag% equ 1 (
   curl -o %pwd%tmp\wuhu_%last%.zip https://shrill-pond-3e81.hunsh.workers.dev/https://github.com/emtry/wuhu/archive/master.zip
   unzip -o -d %pwd%tmp\ %pwd%tmp\wuhu_%last%.zip
   xcopy /s/e/y %pwd%tmp\wuhu-master\* %pwd:~0,-7%
-  rmdir  /q/s %pwd%tmp\wuhu-master
+  rmdir /q/s %pwd%tmp\wuhu-master
  )
 )^
 else (
  echo %last%
 )
 pause
-
-
