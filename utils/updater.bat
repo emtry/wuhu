@@ -2,6 +2,7 @@
 title=自动更新中
 set pwd=%~dp0
 rmdir  /q/s "%pwd:~0,-7%\GreenLuma 2020"
+mkdir %pwd%tmp
 cls
 for /F %%i in (%pwd:~0,-7%\version.txt) do (set version=%%i)
 for /F %%j in ('curl https://cdn.jsdelivr.net/gh/emtry/wuhu@master/version.txt') do (set last=%%j)
