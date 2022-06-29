@@ -11,7 +11,7 @@ echo %last|findstr "404" >nul
 set status=%errorlevel%
 echo %last|findstr "1." >nul
 set flag=%errorlevel%
-rm c:\version.txt
+del c:\version.txt
 cls
 if %version% == %last% ( 
  echo No releases
