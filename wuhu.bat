@@ -1,6 +1,6 @@
 @echo off & setlocal enabledelayedexpansion
 
-start cmd /C "%~dp0utils\updater.bat"
+start cmd /k "cd /d %~dp0utils&&updater.bat"
 
 if not exist "%~dp0utils\GreenLuma 2020\AppList" (
         mkdir "%~dp0utils\GreenLuma 2020\AppList\"
