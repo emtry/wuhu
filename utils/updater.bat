@@ -1,5 +1,5 @@
 @echo off
-title=自动更新中
+title=脳脭露炉赂眉脨脗脰脨
 set pwd=%~dp0
 rmdir /q/s "%pwd:~0,-7%\GreenLuma 2020"
 mkdir %pwd%tmp
@@ -20,7 +20,7 @@ else if %status% neq 1 (
 else if %flag% equ 1 (
  if %version% neq %last% (
   echo New release %last%
-  curl -o %pwd%tmp\wuhu_%last%.zip https://shrill-pond-3e81.hunsh.workers.dev/https://github.com/emtry/wuhu/archive/master.zip
+  curl -o %pwd%tmp\wuhu_%last%.zip https://gh.api.99988866.xyz/https://github.com/emtry/wuhu/archive/master.zip
   unzip -o -d %pwd%tmp\ %pwd%tmp\wuhu_%last%.zip
   xcopy /s/e/y %pwd%tmp\wuhu-master\* %pwd:~0,-7%
   rmdir /q/s %pwd%tmp\wuhu-master
