@@ -3,13 +3,15 @@ title=自动更新中
 set pwd=%~dp0
 rmdir /q/s "%pwd:~0,-7%\GreenLuma 2020"
 mkdir "%pwd%tmp"
+copy "%pwd:~0,-7%\version.txt"  c:\
 cls
-for /F %%i in ("%pwd:~0,-7%\version.txt") do (set version=%%i)
+for /F %%i in (c:\version.txt) do (set version=%%i)
 for /F %%j in ('curl https://gh.api.99988866.xyz/https://raw.githubusercontent.com/emtry/wuhu/master/version.txt') do (set last=%%j)
 echo %last|findstr "404" >nul
 set status=%errorlevel%
 echo %last|findstr "1." >nul
 set flag=%errorlevel%
+rm c:\version.txt
 cls
 if %version% == %last% ( 
  echo No releases
