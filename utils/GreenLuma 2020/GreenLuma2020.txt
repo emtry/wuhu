@@ -1,5 +1,5 @@
 ***************************************************************
-* GreenLuma 2021 1.2.8                                        *
+* GreenLuma 2022 1.3.5                                        *
 * by Steam006                                                 *
 ***************************************************************
 
@@ -35,11 +35,9 @@ Installation (Steam):
 3. Start Steam with DLLInjector.exe.
 
 Installation (Steam) Stealth mode:
-1. Copy GreenLuma_2020_x86.dll, GreenLumaSettings_2020.exe, DLLInjector.exe and DLLInjector.ini to your Steam folder.
+1. Copy User32.dll to your Steam folder.
 
-2. Use GreenLumaSettings_2020.exe to enable stealth mode.
-
-3. Start Steam with DLLInjector.exe.
+2. Start Steam.
 
 Installation (Steam) Stealth mode from any folder:
 1. Copy GreenLuma_2020_x86.dll, GreenLumaSettings_2020.exe, DLLInjector.exe and DLLInjector.ini to any folder on your PC.
