@@ -1,5 +1,5 @@
 ***************************************************************
-* GreenLuma 2023 1.4.3                                        *
+* GreenLuma 2023 1.4.5                                        *
 * by Steam006                                                 *
 ***************************************************************
 
@@ -7,9 +7,9 @@ GreenLuma 2023 Features:
 Unlock not owned games
 Unlock not owned DLC
 Low Violence bypass
-Unlock Stats and Achievements in not owned games
+Unlock Stats and Achievements in not owned games (Locally saved only)
 Use Steam Cloud in not owned games
-Create cracked dedicated online servers in many games
+Create cracked dedicated online servers in some games (Mainly hlds and srcds)
 Denuvo Support (If app ownership ticket (Decrypted + Encrypted) is available)
 SteamStub Support (If app ownership ticket (Decrypted) is available)
 LumaCEG plugin support
@@ -30,7 +30,7 @@ Region lock bypass
 Installation (Steam):
 1. Backup the original bin\x64launcher.exe.
 
-2. Copy GreenLuma2020_Files, GreenLuma_2020_x86.dll, GreenLuma_2020_x64.dll, GreenLumaSettings_2023.exe, DLLInjector.exe and DLLInjector.ini to your Steam folder and x64launcher.exe to the bin folder.
+2. Copy GreenLuma2023_Files, GreenLuma_2020_x86.dll, GreenLuma_2020_x64.dll, GreenLumaSettings_2023.exe, DLLInjector.exe and DLLInjector.ini to your Steam folder and x64launcher.exe to the bin folder.
 
 3. Start Steam with DLLInjector.exe.
 
