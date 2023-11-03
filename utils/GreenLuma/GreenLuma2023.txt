@@ -1,5 +1,5 @@
 ***************************************************************
-* GreenLuma 2023 1.4.5                                        *
+* GreenLuma 2023 1.4.6                                        *
 * by Steam006                                                 *
 ***************************************************************
 
@@ -30,7 +30,7 @@ Region lock bypass
 Installation (Steam):
 1. Backup the original bin\x64launcher.exe.
 
-2. Copy GreenLuma2023_Files, GreenLuma_2020_x86.dll, GreenLuma_2020_x64.dll, GreenLumaSettings_2023.exe, DLLInjector.exe and DLLInjector.ini to your Steam folder and x64launcher.exe to the bin folder.
+2. Copy GreenLuma2023_Files, GreenLuma_2023_x86.dll, GreenLuma_2023_x64.dll, GreenLumaSettings_2023.exe, DLLInjector.exe and DLLInjector.ini to your Steam folder and x64launcher.exe to the bin folder.
 
 3. Start Steam with DLLInjector.exe.
 
@@ -44,14 +44,14 @@ Installation (Steam) Stealth mode:
 4. User32.dll and the AppList folder can be deleted after logging in for additional stealth.
 
 Installation (Steam) Stealth mode from any folder:
-1. Copy GreenLuma_2020_x86.dll, GreenLumaSettings_2023.exe, DLLInjector.exe and DLLInjector.ini to any folder on your PC.
+1. Copy GreenLuma_2023_x86.dll, GreenLumaSettings_2023.exe, DLLInjector.exe and DLLInjector.ini to any folder on your PC.
 
-2. Use GreenLumaSettings_2023.exe to set the full paths to Steam.exe and GreenLuma_2020_x86.dll and to enable stealth mode.
+2. Use GreenLumaSettings_2023.exe to set the full paths to Steam.exe and GreenLuma_2023_x86.dll and to enable stealth mode.
 
 3. Start Steam with DLLInjector.exe.
 
 Installation (Dedicated server):
-1. Copy GreenLuma_2020_x86.dll, GreenLuma_2020_x64.dll, GreenLumaSettings_2023.exe, DLLInjector.exe and DLLInjector.ini to your Server folder.
+1. Copy GreenLuma_2023_x86.dll, GreenLuma_2023_x64.dll, GreenLumaSettings_2023.exe, DLLInjector.exe and DLLInjector.ini to your Server folder.
 
 2. Use GreenLumaSettings_2023.exe to enable server mode.
 
