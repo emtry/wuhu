@@ -1,0 +1,60 @@
+***************************************************************
+* GreenLuma 2024 1.5.5                                        *
+* by Steam006                                                 *
+***************************************************************
+
+GreenLuma 2024 Features:
+Unlock not owned games
+Unlock not owned DLC
+Low Violence bypass
+Unlock Stats and Achievements in not owned games (Locally saved only)
+Use Steam Cloud in not owned games
+Create cracked dedicated online servers in some games (Mainly hlds and srcds)
+Denuvo Support (If app ownership ticket (Decrypted + Encrypted) is available)
+SteamStub Support (If app ownership ticket (Decrypted) is available)
+LumaCEG plugin support
+Family Sharing restrictions bypass
+Region lock bypass
+Stealth mode
+Support for x64 and x86 games
+Support for official Steam client
+
+Stealth mode features:
+Unlock not owned Games
+Unlock not owned DLC
+Low Violence bypass
+Use Steam Cloud in not owned games
+Family Sharing restrictions bypass
+Region lock bypass
+
+Installation:
+1. Backup the original bin\x64launcher.exe.
+
+2. Copy GreenLuma2024_Files, GreenLuma_2024_x86.dll, GreenLuma_2024_x64.dll, GreenLumaSettings_2024.exe, DLLInjector.exe and DLLInjector.ini to your Steam folder and x64launcher.exe to the bin folder.
+
+3. Start Steam with DLLInjector.exe.
+
+Stealth mode (user32.dll):
+1. Run DeleteSteamAppCache.exe.
+
+2. Copy user32.dll to your Steam folder.
+
+3. Start Steam.
+
+4. user32.dll and the AppList folder can be deleted after logging in for additional stealth.
+
+5. If games or DLC stop being unlocked, run DeleteSteamAppCache.exe again.
+
+Stealth mode from any folder:
+1. Copy GreenLuma_2024_x86.dll, GreenLumaSettings_2024.exe, DLLInjector.exe and DLLInjector.ini to any folder on your PC.
+
+2. Use GreenLumaSettings_2024.exe to set the full paths to Steam.exe and GreenLuma_2024_x86.dll and to enable stealth mode.
+
+3. Start Steam with DLLInjector.exe.
+
+Dedicated server:
+1. Copy GreenLuma_2024_x86.dll, GreenLuma_2024_x64.dll, GreenLumaSettings_2024.exe, DLLInjector.exe and DLLInjector.ini to your Server folder.
+
+2. Use GreenLumaSettings_2024.exe to enable server mode.
+
+3. Start the server with DLLInjector.exe.
