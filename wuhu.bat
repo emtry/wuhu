@@ -7,10 +7,25 @@ if not exist "%~dp0utils\GreenLuma\AppList" (
     )
 
 set n=0
+set "added_ids="
 for %%i in ("%~dp0List\*.TXT") do (
 for /f "usebackq delims=" %%j in ("%%i") do (
-        echo/%%~j>"%~dp0utils\GreenLuma\AppList\"^!n^!.txt
-        set /a n+=1
+        echo !added_ids! | find "%%j" >nul
+        if errorlevel 1 (
+            echo/%%~j>"%~dp0utils\GreenLuma\AppList\"^!n^!.txt
+            set "added_ids=!added_ids! %%j"
+            set /a n+=1
+            if exist "%~dp0utils\ManifestHub\%%j\%%j.txt" (
+                for /f "usebackq delims=" %%k in ("%~dp0utils\ManifestHub\%%j\%%j.txt") do (
+                    echo !added_ids! | find "%%k" >nul
+                    if errorlevel 1 (
+                        echo/%%k>>"%~dp0utils\GreenLuma\AppList\"^!n^!.txt
+                        set "added_ids=!added_ids! %%k"
+                        set /a n+=1
+                    )
+                )
+            )
+        )
     )
 )
 
