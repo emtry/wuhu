@@ -18,6 +18,7 @@ for /f "usebackq delims=" %%j in ("%%i") do (
 :start
 taskkill /F /IM steam.exe >nul 2>&1
 cd /d "%~dp0utils\GreenLuma"
+DeleteSteamAppCache.exe
 DLLInjector.exe
 
 exit

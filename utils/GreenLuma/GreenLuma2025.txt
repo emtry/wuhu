@@ -1,5 +1,5 @@
 ***************************************************************
-* GreenLuma 2025 1.6.4                                        *
+* GreenLuma 2025 1.6.5                                        *
 * by Steam006                                                 *
 ***************************************************************
 
@@ -13,7 +13,7 @@ Create cracked dedicated online servers in some games (Mainly hlds and srcds)
 Denuvo Support (If app ownership ticket (Decrypted + Encrypted) is available)
 SteamStub Support (If app ownership ticket (Decrypted) is available)
 LumaCEG plugin support
-Family Sharing restrictions bypass
+Steam Families restrictions bypass
 Region lock bypass
 Stealth mode
 Support for x64 and x86 games
